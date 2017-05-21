@@ -35,7 +35,7 @@ int main(int argc, const char * argv[]) {
     clock_t end = clock();
     double time_spent = (double)(end - begin) / CLOCKS_PER_SEC;
     
-    cout<<"Pi approx: "<<setprecision(20)<<pi<<endl
+    cout<<"Pi approx: "<<setprecision(20)<<pi<<endl     //another great approximation of pi is just 355/113, lol
     <<"Precision: "<<fabs(100 - ((pi/3.14159265358979323846)*100))<<"%"<<endl<<endl;
     cout<<"Time spent: "<<setprecision(4)<<time_spent<<" seconds."<<endl<<endl;
 
